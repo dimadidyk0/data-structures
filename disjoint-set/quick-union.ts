@@ -27,6 +27,7 @@ class UnionFind {
 
 const uf = new UnionFind(10);
 // 1-2-5-6-7 3-8-9 4
+
 uf.union(1, 2);
 uf.union(2, 5);
 uf.union(5, 6);
