@@ -19,6 +19,10 @@ class UnionFind {
       }
     }
   }
+
+  public connected(a: number, b: number) {
+    return this.find(a) === this.find(b);
+  }
 }
 
 const set = new UnionFind(10);
